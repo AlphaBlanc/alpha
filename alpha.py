@@ -13,6 +13,5 @@ async def on_ready():
     game = discord.Game("서버주소: Alpha.minesv.kr")
     await app.change_presence(status=discord.Status.online, activity=game)
 
-
-
-clinet.run(os.environ['token'])
+access_token = os.environ["token"]
+client.run(access_token)
