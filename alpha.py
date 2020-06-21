@@ -15,5 +15,4 @@ async def on_ready():
 
 
 
-access_token = os.environ["BOT_TOKEN"]
-bot.run(access_token)
+clinet.run(os.environ['token'])
